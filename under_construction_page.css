@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "WC Roughtrad";
+  src:url("polices/WC_RoughTrad.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src:url("polices/Montserrat-Light.otf");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+  src:url("polices/Montserrat-Bold.otf");
+}
+
+
+html{
+  height: 100%;
+}
+
+body{
+  background-image: url("fog.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: black;
+  font-family: "Montserrat-Light", georgia;
+  font-size: 25px;
+}
+
+
+#topleft{
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+#topleft img{
+  width: 25%;
+  min-width: 150px;
+}
+
+#bottomright{
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+}
+#bottomright a{
+  color: white;
+  font-family: "Montserrat-Light", georgia;
+  font-size: 15px;
+}
+
+#middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: white;
+}
+
+#demo{
+  color: white;
+}
